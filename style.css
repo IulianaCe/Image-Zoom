@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300&family=Lumanosimo&family=Mulish:wght@200&family=Pacifico&family=Quicksand:wght@300&family=Raleway:wght@200&display=swap');
+
+.card-container{
+    display: flex;
+}
+.card{
+    width: 200px;
+    height: 600px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    margin: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+.card-header{
+    background-color: #f2f2f2f2;
+    padding: 10px;
+    cursor: pointer;
+}
+.card-content img{
+    max width: 100%;
+    height: auto;
+}
+img {
+    transition: transform 0.25s ease;
+}
+
+img:hover {
+    -webkit-transform:scale(1.5); /* or some other value */
+    transform:scale(1.5);
+}
